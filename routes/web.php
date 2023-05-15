@@ -19,6 +19,7 @@ Auth::routes();
 Route::post('custom-login', [App\Http\Controllers\CustomAuthController::class, 'customLogin'])->name('login.custom'); 
 Route::post('custom-registration', [App\Http\Controllers\CustomAuthController::class, 'customRegistration'])->name('register.custom'); 
 
+
 Route::get('forget-password', [App\Http\Controllers\LupaPasswordController::class, 'showForgetPasswordForm'])->name('forget.password.get');
 Route::post('forget-password', [App\Http\Controllers\LupaPasswordController::class, 'submitForgetPasswordForm'])->name('forget.password.post'); 
 Route::get('reset-password/{token}', [App\Http\Controllers\LupaPasswordController::class, 'showResetPasswordForm'])->name('reset.password.get');

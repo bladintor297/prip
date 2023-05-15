@@ -57,7 +57,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <th>Butiran Aktiviti:</th>
+                    <th>Huraian Aktiviti:</th>
                     <td>
                       {{$aktiviti->butiran}}
                     </td>
@@ -91,6 +91,7 @@
                     </tr>
                   @endif
                   <tr>
+                    
                     <th>Bilangan Peserta:</th>
                     <td>
                       {{$aktiviti->bil_peserta}} orang

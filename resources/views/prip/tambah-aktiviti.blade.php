@@ -92,7 +92,7 @@
                         <div class="row mb-3">
                             <label for="bil_peserta" class="col-md-4 col-form-label text-md-end">{{ __('Bilangan Peserta ') }}</label>
                             <div class="col-md-6">
-                                <input id="bil_peserta" type="number" class="form-control" name="bil_peserta" value="0" required>
+                                <input id="bil_peserta" type="number" class="form-control" name="bil_peserta" placeholder="0" required>
                             </div>
                         </div>
                         <div class="row mb-3">

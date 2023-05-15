@@ -164,6 +164,7 @@ class AktivitiController extends Controller
             $aktiviti->tarikh_akhir = $request->input('tarikh_akhir');
             $aktiviti->tempat = $request->input('tempat');
             $aktiviti->institusi = $request->input('institusi');
+            $aktiviti->bil_peserta = $request->input('bil_peserta');
             if($request->hasFile('gambar')){
                 $imageName = 'Gambar_'.$request->input('nama_aktiviti').'.'.$request->gambar->extension();
                 $request->gambar->storeAs('public/gambar/aktiviti', $imageName);
